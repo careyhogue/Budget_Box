@@ -1,6 +1,6 @@
-import './assets/style.css';
-import Router from './Router';
 
+import Router from './Router';
+import './App.css'
 function App() {
     return <Router />;
 }

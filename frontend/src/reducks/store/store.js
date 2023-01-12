@@ -10,7 +10,7 @@ import thunk from 'redux-thunk';
 import { PostsReducer } from '../posts/reducers';
 
 const rootReducer = combineReducers({
-  posts: PostsReducer,
+ 
 });
 
 export default function configureStores(preloadedState) {
